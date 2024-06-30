@@ -1,0 +1,13 @@
+name: 'Simple Echo Action'
+description: 'Outputs a given message'
+author: 'DavidNaderer03'
+inputs:
+  message:
+    description: 'The message to output'
+    required: true
+runs:
+  using: 'node16'
+  main: 'src/index.js'
+branding:
+  icon: 'terminal'
+  color: 'blue'
